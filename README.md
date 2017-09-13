@@ -1,26 +1,24 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# iXpeditie README #
 
-## How to use this template
+### What is this repository for? ###
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+* This is the frontend and backend of the iXpeditie app we are making for iXperium. This is the tablet client that connects to the Smartfox 2X server
+* Version 0.1
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+### How do I get set up? ###
+  
+#### Server ####
+* download the smartfox 2x server from http://www.smartfoxserver.com/download/sfs2x#p=installer
+* install the smartfox server
+* launch the smartfox admin panel, default location at localhost:8080/admin/, and navigate to 'Server Configuration' and add the soccet address 192.168.0.38 with port 9933 and the TCP protocol
+* navigate to 'Server Configuration' -> 'Web server' and make sure that all the sliders are turned on
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+#### Ionic ####
+* npm install -g ionic cordova (You might need administrator rights!)
+* npm install
+* cordova platform add android
+* cordova platform add ios
+* run ionic build
+* source code can be found in platforms/ios and platforms/android. Open in it
+  as you would code for any other app.
+* Connect the mobile device to the same internet network as the server
