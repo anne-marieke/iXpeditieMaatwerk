@@ -11,14 +11,17 @@
 * See the desktop repo for the server setup
 
 #### Ionic ####
-* npm install -g ionic cordova (You might need administrator rights!)
-* npm install
-* cordova platform add android
-* cordova platform add ios
-* run ionic build
-* source code can be found in platforms/ios and platforms/android. Open in it
+* Clone this repo
+* Install node from https://nodejs.org/en/download/
+* Npm install -g ionic cordova (You might need administrator rights!)
+* Npm install
+* Cordova platform add android
+* Run ionic build
+* Source code can be found in platforms/ios and platforms/android. Open in it
   as you would code for any other app.
-* Connect the mobile device to the same internet network as the server
+* Run ionic serve to run locally
 
 ### Deployment ###
 * In the src/assets/javascript/connection.js replace in the function autoConnect() config.host from localhost to the ip adress of the smartfox server
+* Connect the mobile device to the same internet network as the server (via connectify)
+* Install the app on the device
