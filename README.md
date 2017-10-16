@@ -24,5 +24,5 @@
 #### Deployment ####
 * In the src/assets/javascript/connection.js replace in the function autoConnect() config.host from localhost to the ip adress of the smartfox server
 * Install the app on the device
-  * https://ionicframework.com/docs/intro/deploying/
+      * https://ionicframework.com/docs/intro/deploying/
 * Connect the mobile device to the same internet network as the server (via connectify)
