@@ -21,7 +21,7 @@
   as you would code for any other app.
 * Run ionic serve to run locally
 
-### Deployment ###
+#### Deployment ####
 * In the src/assets/javascript/connection.js replace in the function autoConnect() config.host from localhost to the ip adress of the smartfox server
 * Connect the mobile device to the same internet network as the server (via connectify)
 * Install the app on the device
